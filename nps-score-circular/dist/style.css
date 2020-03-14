@@ -1,0 +1,39 @@
+body{
+  background-color:black;
+}
+circle{cx: 60;cy: 60;r: 47;fill:none;stroke-width: 1.5em;}
+.circular-bar_wrapper{display:table; margin:2em auto;}
+.circular-bar{display: inline-block;position: relative;}
+.circular-bar svg{width: 15em;height: 15em;}
+.circular-bar .circle-indicator{position: absolute;color: white;cursor: pointer;font-size: 1em;}
+.circular-bar #circular-bar-content{display: inline-block;position: absolute;top: 33%;font-size: x-large;left: 35%;}
+.circular-bar #circular-bar-content img{height: 3em;}
+.circular-bar .circle-value{stroke-dasharray: 339.292;stroke-dashoffset: 315.717;transform-origin: center;cursor: pointer;}
+.circular-bar .circle-value:hover{stroke-width: 1.7em !important;}
+.circular-bar #value-00{stroke: #b71c1c;transform: rotate(117deg);stroke-dasharray: 339.292;}
+.circular-bar #value-01{stroke: #d32f2f;transform: rotate(145deg);}
+.circular-bar #value-02{stroke: #f44336;transform: rotate(173deg);}
+.circular-bar #value-03{stroke: #ef5350;transform: rotate(201deg);}
+.circular-bar #value-04{stroke: #ef6c00;transform: rotate(229deg);}
+.circular-bar #value-05{stroke: #fb8c00;transform: rotate(257deg);}
+.circular-bar #value-06{stroke: #ffa726;transform: rotate(285deg);}
+.circular-bar #value-07{stroke: #fbc02d;transform: rotate(313deg);}
+.circular-bar #value-08{stroke: #ffeb3b;transform: rotate(341deg);}
+.circular-bar #value-09{stroke: #689f38;transform: rotate(369deg);}
+.circular-bar #value-10{stroke: #33691e;transform: rotate(397deg);}
+.circular-bar #circle-indicator-0{bottom: 17%;left: 21%;}
+.circular-bar #circle-indicator-1{bottom: 32%;left: 11%;}
+.circular-bar #circle-indicator-2{bottom: 51%;left: 10%;}
+.circular-bar #circle-indicator-3{bottom: 70%;left: 16%;}
+.circular-bar #circle-indicator-4{bottom: 80%;left: 30%;}
+.circular-bar #circle-indicator-5{top: 8%;right: 48%;}
+.circular-bar #circle-indicator-6{top: 12%;right: 30%;}
+.circular-bar #circle-indicator-7{top: 25%;right: 16%;}
+.circular-bar #circle-indicator-8{bottom: 49%;right: 11%;}
+.circular-bar #circle-indicator-9{bottom: 31%;right: 13%;}
+.circular-bar #circle-indicator-10{bottom: 17%;right: 22%;}
+@media only screen and (max-device-width: 420px) {
+	.circular-bar svg {width: 300px;height: 300px;}
+	.circular-bar .circle-indicator {font-size: 25px;}
+	.circular-bar #circular-bar-content img {height: 90px;
+	}}

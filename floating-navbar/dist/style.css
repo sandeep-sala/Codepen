@@ -1,0 +1,40 @@
+body{
+  background-color:black;
+}
+.floating-nav__wrapper{
+    background-color:white;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px grey;
+    position: fixed;
+    top: 2em;
+}	
+.floating-nav{
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+	padding: 5px;
+}
+
+.floating-nav a {
+	text-decoration: none;
+	padding: 10px;
+	color: #191717;
+	margin: 5px 0px;
+}
+
+.floating-nav a label{
+	display: none;
+	position: absolute;
+    background-color: #33a3da;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.floating-nav a i {
+	position: relative;
+}
+.floating-nav a i:hover{
+        transform: scale(1.1);
+}

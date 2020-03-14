@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+
+figure{
+    margin: 5em auto;
+    width: fit-content;
+    border-radius: 50%;
+    padding: 10px;
+    background: repeating-linear-gradient( 
+      0deg, 
+      #feff22c9, 
+      #e0b30e 15px, 
+      #19191f9e 5px, 
+      #0a0a0edb 25px 
+    );
+    animation: vapour_sun 10s linear infinite;
+}
+figure img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+@keyframes vapour_sun {
+  from {background-position: -10em -10em;}
+  to   {background-position: 10em 10em;}
+}

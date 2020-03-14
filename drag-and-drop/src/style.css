@@ -1,0 +1,68 @@
+body{
+  background-color: #151313;
+}
+
+.dragdropAlertMsgClose__XPS{
+	padding: 0px 5px;
+    text-align: center;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 50%;
+    font-size: 15px;
+	}
+
+.dragdropContainer__XPS{
+	margin: auto;
+	width: 80%;
+  max-width:500px;
+	margin-top: 3em;
+	position: relative;
+	}
+
+.dragdropContainer__XPS .dragdrop__XPS{
+	height: 150px;
+	border-radius: 5px;
+	width: 100%;
+	box-sizing:border-box;
+	background-color: white;
+	margin: auto;
+	box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+	}
+
+.dragdropContainer__XPS .dragdrop__XPS input{
+	height: 100%;
+	outline: none;
+	opacity: 0;
+	width: 100%;
+	box-sizing: border-box;
+	}
+
+.dragdropContainer__XPS .dragdropMsg__XPS{
+	position: absolute;
+	width: 100%;
+	top: 15%;
+	padding: 36px;
+	box-sizing: border-box;
+	text-align: center;
+	}
+
+.dragdropContainer__XPS .dragdropafterSelect__XPS{
+	margin-top: .7em;
+	}
+
+.dragdropContainer__XPS .dragdropafterSelect__XPS #dragdropAlertMsg__XPS{
+	width: 73%;
+	word-break: break-all;
+	display: none;
+	padding: .5em;
+	}
+
+.dragdropContainer__XPS .dragdropafterSelect__XPS #dragdropUploadBTN__XPS{
+	display: none;
+	float: right;
+	padding: .5em;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	}
+	
