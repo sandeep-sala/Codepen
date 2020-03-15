@@ -1,0 +1,107 @@
+body{
+  background-color:black;
+}
+.time-header{
+  color:white;
+  font-family:sans-serif;
+}
+#time_pick{
+  width:80%;
+  text-align:center;
+  margin: 3em auto;
+}
+.timepicker-popup-wrapper-modal {display: none; position: fixed; z-index: 1;padding-top: 100px;left: 0;top: 0;width: 100%;height: 100%;overflow: auto; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.4); }
+#timepicker-popup-wrapper{width: 14em;height: auto;box-shadow: 1px 2px 8px;background-color: #fefefe;margin: auto;}
+#timepicker-popup-wrapper #timepicker-value{width: auto;padding: 1em;font-size: 19px;text-align: center;color: white;}
+#timepicker-popup-wrapper #timepicker-value span{display: inline-block;height: 1.1em;width: auto;padding: 4px;cursor: pointer;}
+#timepicker-popup-wrapper #timepicker-value span:hover{background-color: #fffcfc;color: black;border-radius: 7px;}
+#timepicker-popup-wrapper #timepicker-popup{position: relative;width: 12em;height: 12em;margin: 7% auto;border-radius: 50%;background-color: #dcd9d9;}
+#timepicker-popup-wrapper #timepicker-popup-Buttons-ok-cancel{padding: 15px;margin-top: 1.5em;text-align: end;}
+#timepicker-popup-wrapper #timepicker-popup-Buttons-ok-cancel a{text-decoration: none;color: green;}
+#timepicker-popup-wrapper #timepicker-popup-Buttons-ok-cancel a:nth-child(1){}
+#timepicker-popup-wrapper #timepicker-popup-Buttons-ok-cancel a:nth-child(2){margin-left: 20px;margin-right: 14px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-hour,
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute{height: 12em;width: 12em;position: relative;transition: all 1s ease;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute{display:none;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-ampm{}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-hour span{position: absolute;display: inline-block;cursor: pointer;height: 20px;width: 20px;padding: 5px;text-align: center;font-weight: bold;border-radius: 50%;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span{position: absolute;display: inline-block;text-align: center;padding: 3px;cursor: pointer;font-size: 10px;border-radius: 50%;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-ampm span{position: absolute;background-color: #dcd9d9;color: black;font-weight: bold;display: inline-block;font-size: x-small;border-radius: 50%;cursor: pointer;padding: 14px;text-align: center;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:hover{transform: scale(2);background-color: #352f2f;color: white;border-radius: 50%;padding: 3px;}
+#timepicker-popup-wrapper #timepicker-popup  #timepicker-hand{width: 60px;display: inline-block;height: 3px;background-color: gray;position: absolute;top: 127px;display: none;left: 67px;transform: rotate(-90deg);}
+#timepicker-popup-wrapper #timepicker-popup  #timepicker-point{display: inline-block;background-color: #a4a4dc;height: 5px;padding: 1px;width: 5px;border-radius: 50%;position: absolute;top: 48%;left: 49%;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-ampm span:nth-child(1){right: 0px;bottom: -24px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-ampm span:nth-child(2){bottom: -24px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-hour span:nth-child(1){top: 21px;right: 42px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-hour span:nth-child(2){top: 47px;right: 15px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-hour span:nth-child(3){right: 5px;top: 42%;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-hour span:nth-child(4){bottom: 46px;right: 19px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-hour span:nth-child(5){bottom: 18px;right: 42px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-hour span:nth-child(6){bottom: 5px;left: 43%;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-hour span:nth-child(7){bottom: 17px;left: 44px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-hour span:nth-child(8){bottom: 45px;left: 15px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-hour span:nth-child(9){top: 42%;left: 5px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-hour span:nth-child(10){top: 46px;left: 16px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-hour span:nth-child(11){top: 18px;left: 44px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-hour span:nth-child(12){top: 5px;right: 41%;}		
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(1){top: 1px;right: 88px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(2){top: 4px;right: 67px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(3){top: 10px;right: 52px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(4){top: 18px;right: 38px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(5){top: 28px;right: 25px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(6){top: 41px;right: 15px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(7){top: 56px;right: 10px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(8){top: 73px;right: 5px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(9){top: 88px;right: 2px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(10){top: 105px;right: 4px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(11){top: 118px;right: 10px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(12){top: 131px;right: 16px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(13){top: 143px;right: 24px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(14){top: 154px;right: 34px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(15){top: 162px;right: 47px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(16){right: 62px;bottom: 7px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(17){bottom: 3px;right: 78px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(18){bottom: 3px;right: 94px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(19){left: 62px;bottom: 7px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(20){top: 164px;left: 45px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(21){top: 154px;left: 34px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(22){top: 143px;left: 24px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(23){top: 131px;left: 16px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(24){top: 118px;left: 10px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(25){top: 105px;left: 4px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(26){top: 88px;left: 2px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(27){top: 73px;left: 5px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(28){top: 56px;left: 10px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(29){top: 41px;left: 15px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(30){top: 28px;left: 25px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(31){top: 18px;left: 38px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(32){top: 10px;left: 52px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(33){top: 4px;left: 67px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(34){top: 19px;right: 77px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(35){top: 23px;right: 60px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(36){top: 33px;right: 46px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(37){top: 45px;right: 35px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(38){top: 58px;right: 28px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(39){top: 70px;right: 25px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(40){top: 82px;right: 22px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(41){top: 95px;right: 23px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(42){top: 109px;right: 25px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(43){bottom: 53px;right: 32px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(44){bottom: 43px;right: 40px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(45){bottom: 30px;right: 57px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(46){right: 72px;bottom: 23px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(47){bottom: 20px;left: 89px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(48){bottom: 21px;left: 74px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(49){bottom: 27px;left: 60px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(50){bottom: 35px;left: 48px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(51){bottom: 42px;left: 41px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(52){top: 122px;left: 32px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(53){top: 109px;left: 27px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(54){top: 92px;left: 23px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(55){top: 78px;left: 24px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(56){top: 66px;left: 27px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(57){top: 51px;left: 35px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(58){top: 37px;left: 47px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(59){top: 25px;left: 61px;}
+#timepicker-popup-wrapper #timepicker-popup #timepicker-time-minute span:nth-child(60){top: 20px;left: 80px;}
+.input-time{color: #31ea31;background-color: #b9f1b9;border: 1px solid #78e878;text-align: center;padding: 15px;border-radius: 10px;}
