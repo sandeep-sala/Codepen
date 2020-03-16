@@ -1,0 +1,38 @@
+*{margin: 0;padding: 0;}
+
+body {background: #000;}
+
+
+.shine-effect{
+  width: 70%;
+  margin: 5em auto;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #000000, #21e612, #000);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine-anime 5s linear infinite;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+}
+.shine-effect a{
+  text-decoration: none;
+  color: inherit;
+  font-size: 15px;
+}
+
+@keyframes shine-anime {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
