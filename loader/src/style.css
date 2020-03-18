@@ -1,0 +1,26 @@
+*{margin: 0;padding: 0;}
+
+body{
+    background-color:black;
+    display:flex;
+    margin-top:5em;
+    justify-content:center;
+  }
+  
+.loader {
+    border-top: 5px solid #95fb74;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    box-shadow: 0px 0px 10px #ffffff52;
+    animation: spinner 2.5s linear infinite;
+}
+
+@keyframes spinner {
+    0% { 
+        transform: rotate(0deg); 
+    }
+    100% { 
+        transform: rotate(360deg); 
+    }
+}
