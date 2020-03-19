@@ -1,0 +1,35 @@
+*{margin: 0;padding: 0;}
+
+body{
+  font-family: sans-serif;  
+  background-color:black;
+  display:flex;
+  margin-top:5em;
+  justify-content:center;
+}  
+  
+  
+h1#resize-effect {
+  font-size: 20px;
+  font-weight: 100;
+  animation: resize-anime 5s infinite forwards;
+  animation-direction: alternate;
+}
+
+h1#resize-effect span > span:nth-child(odd) {
+  color: green;
+}
+  
+@keyframes resize-anime {
+  from {
+    font-size: 20px;
+    font-weight: 100;
+    opacity:0
+  } 
+  to {
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: 0px 0px 5px white;
+    opacity:1
+  }
+}
