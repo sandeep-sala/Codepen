@@ -1,0 +1,16 @@
+*{margin: 0;padding: 0;}
+
+body {
+  background: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.striped {
+  font-size: 90px;
+  background-size: 16px;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-color: #e6f920;
+  background-image: -webkit-linear-gradient(90deg,rgb(49, 139, 204) 30%,transparent 25%,transparent 50%,rgba(210, 61, 191, 0.99) 50%,rgba(210, 61, 191, 0.99) 62%,#e61414 63%,transparent)
+}
