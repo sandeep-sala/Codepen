@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  background-image: linear-gradient(270deg, #11581E, #00000005);
+  height: 100vh;
+  background-repeat: no-repeat;
+  font-family: monospace;
+  font-size: x-large;
+  color: rgba(128, 255, 128, 0.8);
+  text-shadow:0 0 1ex rgba(51, 255, 51, 1),0 0 2px rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.Error {text-transform: uppercase;width: 25em;
+    margin-top: 5em;}
+.Error_text {color: rgba(128, 255, 128, 0.8);text-shadow:0 0 1px rgba(51, 255, 51, 0.4),0 0 2px rgba(255, 255, 255, 0.8);}
+.Error_text::before {content: "> ";}
+.Error_code {color: white;}
+.Error_text a{color: #fff;text-decoration: none;}
+.Error_text a::before {content: "[";}
+.Error_text a::after {content: "]";}
