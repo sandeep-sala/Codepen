@@ -1,0 +1,28 @@
+:root {
+	--font: "helvetica", sans-serif;
+	--bg-colr: #4c56af;
+}
+body{
+  background-color: #6134da08;
+    text-align: center;
+    margin-top: 5em;
+}
+
+.push_button {
+	padding: 25px 35px;
+	font-size: 24px;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: var(--bg-colr);
+	border: 1px solid #ffffff3b;
+	transform: rotateX(48deg);
+	border-radius: 10px;
+	box-shadow: 0 10px #5c5b5b6e;
+}
+  
+.push_button:active {
+	background-color: var(--bg-colr);
+	box-shadow: 0 2px #666;
+	transform: rotateX(45deg) translateY(5px);
+}
