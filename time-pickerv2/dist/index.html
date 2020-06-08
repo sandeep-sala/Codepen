@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Time-Picker</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="input_div">
+    <input type="text" onclick="timepicker(this,'a')" placeholder="Click here to select time">
+</div>
+
+
+<div class="timepicker_wrapper" >
+    <div class="modal-content">
+        <div class="timepicker_wrapper_main">
+            <p class="timepicker_header">
+                <b>12</b>:<b>00</b>
+                <b>AM</b>
+            </p>
+            <div class="timepicker_data_select">
+                <select onchange="changeTimepickerheader(this,'1')" size="5" class="timepicker_hour"></select>
+                <select onchange="changeTimepickerheader(this,'2')" size="5"  class="timepicker_minute"></select>
+                <select onchange="changeTimepickerheader(this,'3')" size="5" class="timepicker_ampm">
+                    <option value="AM">AM</option><option value="PM">PM</option>
+                </select>
+            </div>
+            <div class="timepicker_control">
+                <button onclick="timepicker(this,'x')">Close</button><button onclick="timepicker(this,'c')">Clear</button><button onclick="timepicker(this,'s')">Set</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

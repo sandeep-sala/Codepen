@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.input_div{text-align: center;margin-top: 15em;}
+
+.input_div input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.modal-content{
+    margin: 9em auto;
+    width: fit-content;
+    background-color: white;
+}
+
+.timepicker_wrapper{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #00000082;
+    width: 100%;
+    height: 100vh;
+}
+
+.timepicker_hour,
+.timepicker_minute,
+.timepicker_ampm{
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    border: 1px solid #80808080;
+    color: #0000009e;
+    font-weight: bold;
+}
+
+.timepicker_hour::-webkit-scrollbar,
+.timepicker_minute::-webkit-scrollbar,
+.timepicker_ampm::-webkit-scrollbar{ 
+    display: none;  
+}
+
+.timepicker_hour option,
+.timepicker_minute option,
+.timepicker_ampm option{
+    font-weight: bold;
+    padding: 5px 25px;
+}
+
+.timepicker_control{text-align: end;margin-top: 5px;margin-bottom: 10px;}
+
+.timepicker_control button{
+    padding: 7px 15px;
+    border: none;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    margin-left: 8px;
+}
+.timepicker_wrapper_main{
+    width: fit-content;
+    border: 1px solid gray;
+    padding: 0px 12px;
+}
+
+.timepicker_control button:first-child{background-color: #ff0000db;color: white;margin-right: 15px;}
+
+.timepicker_header{text-align: center;color: #0000008a;margin: 5px 0px;}
+
