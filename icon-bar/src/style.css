@@ -1,0 +1,59 @@
+.icon-bar-vertical {
+  width: 70px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px grey;
+}
+
+.icon-bar-vertical a {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.3s ease;
+  color: #000000a6;
+  font-size: 36px;
+}
+
+.icon-bar-vertical a:hover {
+  background-color: #0f31db;
+  border-radius: 10px;
+}
+
+/* ---------------------------------------------- */
+
+.icon-bar-horizontal {
+  width: 30em;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px grey;
+  overflow: auto;
+}
+
+.icon-bar-horizontal a {
+  float: left;
+  text-align: center;
+  width: 20%;
+  padding: 12px 6px;
+  transition: all 0.3s ease;
+  color: #000000a6;
+  font-size: 32px;
+  box-sizing: border-box;
+}
+
+.icon-bar-horizontal a:hover {
+  background-color: #032bf1db; 
+  border-radius: 10px;
+}
+
+/* ---------------------------------------------- */
+
+.active {
+  background-color: #032bf1db;
+  border-radius: 10px;
+}
+
+body{
+  background: black;
+}
