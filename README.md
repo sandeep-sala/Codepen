@@ -69,3 +69,6 @@ Some of my Projects are
 
 ## Time Picker
 ![ScreenShot](https://i.postimg.cc/K4hK0QHj/time-picker.png)
+
+## Icon Bar
+![ScreenShot](https://i.postimg.cc/Y9nw6Hmp/icon-bar.png)
