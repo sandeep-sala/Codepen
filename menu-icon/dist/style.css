@@ -1,0 +1,31 @@
+body{
+  background: black;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+.b_1, .b_2, .b_3 {
+  width: 50px;
+  height: 8px;
+  background-color: white;
+  margin: 8px 0;
+  transition: 0.4s;
+}
+
+.change .b_1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-14px, 5px);
+}
+
+.change .b_2 {opacity: 0;}
+
+.change .b_3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-17px, -8px);
+}
