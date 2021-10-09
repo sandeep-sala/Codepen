@@ -1,6 +1,6 @@
 # My CodePen Projects
 
-Some of my Projects are
+Some of My Projects ..
 
 ## Screenshots
 
