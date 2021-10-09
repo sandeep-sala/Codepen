@@ -4,83 +4,83 @@ Some of my Projects are
 
 ## Screenshots
 
-## 404 Page
-![ScreenShot](https://i.postimg.cc/x18xNGMm/error-404page.png)
-
-## Button With <a> tag
-![ScreenShot](https://i.postimg.cc/zDpFwbJF/button-with-a-tag.png)
-
-## Chat UI
-![ScreenShot](https://i.postimg.cc/Bbd65Btv/Chat-UI.png)
-
-## Drag and Drop
-![ScreenShot](https://i.postimg.cc/yNQSg9hD/Code-Pen-Home.png)
-
-## floating nav
-![ScreenShot](https://i.postimg.cc/43djQkcW/floating-nav.png)
-
-## Hello, World! with JS
-![ScreenShot](https://i.postimg.cc/cLqJzhh7/hello-world-js.png)
-
-## India Flag
-![ScreenShot](https://i.postimg.cc/7ZVpz1BM/India-Flag.png)
-
-## linux terminal
-![ScreenShot](https://i.postimg.cc/MKJ4r3Nm/linux-terminal.png)
-
-## loader 2
-![ScreenShot](https://i.postimg.cc/c1wkYMCg/loader-2.png)
-
-## loader
-![ScreenShot](https://i.postimg.cc/mDMjYBLf/loader.png)
-
-## NPS Score Circular
-![ScreenShot](https://i.postimg.cc/T2Jqfkh9/NPS-Score-Circular.png)
-
-## Rating 1 to 10
-![ScreenShot](https://i.postimg.cc/wM5dbCkn/Rating-1-to-10.png)
-
-## Progress Bar
-![ScreenShot](https://i.postimg.cc/sDFXHy3H/Progress-Bar.png)
-
-## Ripple Effect
-![ScreenShot](https://i.postimg.cc/bwVfMHQY/Ripple-Effect.png)
-
-## Shine Text Effect
-![ScreenShot](https://i.postimg.cc/yxjbRsj6/Shine-Text-Effect.png)
-
-## Stripped text
-![ScreenShot](https://i.postimg.cc/J47gLH7s/Stripped-text.png)
-
-## Tabs in css
-![ScreenShot](https://i.postimg.cc/3N8LYzTs/Tabs-in-Css.png)
-
-## Text Resize Effect
-![ScreenShot](https://i.postimg.cc/VkxDdJwB/Text-Resize-Effect.png)
-
-## Time Picker
-![ScreenShot](https://i.postimg.cc/mr3NkV8B/Time-picker.png)
-
-## Vapour Sun Effect
-![ScreenShot](https://i.postimg.cc/hPJLTKpC/vapour-sun-efect.png)
-
 ## 3D Button
-![ScreenShot](https://i.postimg.cc/Kvpw3VCm/3-D-button.png)
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/3dbutton/src/3d_button.png)
 
-## Time Picker
-![ScreenShot](https://i.postimg.cc/K4hK0QHj/time-picker.png)
-
-## Icon Bar
-![ScreenShot](https://i.postimg.cc/Y9nw6Hmp/icon-bar.png)
-
-## Menu Icon
-![ScreenShot](https://i.postimg.cc/cHxVJVyT/menu-icon.png)
+## 404 Page
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/404-page/src/404_error_page.png)
 
 ## Accordion
-![ScreenShot](https://i.postimg.cc/sXzwfSSr/Accordion.png)
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/accordion/src/accordion.png)
+
+## Button With A Tag
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/button-with-a-tag/src/a_tag_button.png)
+
+## Chat UI
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/chat-ui/src/chat_ui.png)
 
 ## Contact Details
-[![Screenshot-2021-10-06-091312.png](https://i.postimg.cc/Z52gn9Sr/Screenshot-2021-10-06-091312.png)](https://postimg.cc/Hr03Pkjx)
+![Screenshot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/contact-details/src/contact_details.png)
 
 ## Contact List
-[![Screenshot-2021-10-09-160344.png](https://i.postimg.cc/t4Dc6h44/Screenshot-2021-10-09-160344.png)](https://postimg.cc/0zMZRKST)
+![Screenshot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/contact-list/src/contact_list.png)
+
+## Drag and Drop
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/drag-and-drop/src/drag_and_drop.png)
+
+## Floating Navbar
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/floating-navbar/src/floating_navbar.png)
+
+## Hello, World! with JS
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/hello-world-with-js/src/hello_js.png)
+
+## Icon Bar
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/icon-bar/src/icon_nav_bar.png)
+
+## India Flag
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/india-flag/src/india_flag.png)
+
+## Linux Terminal
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/linux-terminal/linux_terminal.png)
+
+## Loader 1
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/loader/src/loader_01.png)
+
+## Loader 2
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/loader_2/src/loader_2.png)
+
+## Menu Icon
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/menu-icon/src/menu_icon.png)
+
+## NPS Score Circular
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/nps-score-circular/src/nps_score_circular.png)
+
+## Progress Bar
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/progress-bar/src/progress_bar.png)
+
+## Rating 1 to 10
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/ratting-1-to-10/src/rating_bar_1_to_10.png)
+
+## Ripple Effect
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/ripple-effect/src/ripple_effect.png)
+
+## Shine Text Effect
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/shine-text-effect/src/shine_text_effect.png)
+
+## Stripped Text
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/stripped-text/src/stripped_text.png)
+
+## Tabs In Css
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/tabs-in-css/src/tab_in_css.png)
+
+## Text Resize Effect
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/text-resize-effect/src/text_resize_effect.png)
+
+## Time Picker
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/time-picker/src/time_picker_1.png)
+
+## Time Picker 2
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/time-pickerv2/src/time_picker_2.png)
+
+## Vapour Sun Effect
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/vapor-sun-effect/src/vapour_sun_effect.png)
