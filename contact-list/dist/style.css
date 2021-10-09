@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,600,800");
+* {
+  box-sizing: border-box;
+  padding-inline-start: 0;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.add-contact-action {
+  position: fixed;
+  bottom: 34px;
+  right: 15px;
+  width: 3em;
+  height: 3em;
+  cursor: pointer;
+}
+
+.add-contact-action .item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 50%;
+  transition: 0.5s;
+  color: white;
+  background: black;
+  box-shadow: 1px 1px 5px #333;
+}
+
+footer.main-div_footer {
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 12px;
+  padding: 3px;
+  background-color: #013864;
+  position: sticky;
+}
+
+.topnav {
+  background-color: #013864;
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  color: white;
+}
+
+.nav-profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-profile-container img {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+}
+
+.nav-content-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+}
+
+.search-container {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  padding: unset !important;
+  margin: 5px;
+  border: none;
+}
+
+.search-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 0px;
+}
+
+.search-container i.icon {
+  padding: 10px;
+  background: white;
+  color: #013864;
+  min-width: 40px;
+  text-align: center;
+  border: 0px;
+}
+
+.profile-card {
+  width: 12em;
+  display: inline-block;
+  background: #013864;
+  color: white;
+  margin: 6px 4px;
+  box-shadow: 1px 1px 5px #333;
+}
+
+.profile-image {
+  height: 120px;
+}
+
+.profile-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-details {
+  padding: 5px 18px;
+}
+
+.profile-details p {
+  margin: 6px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-contact-name {
+  padding: 5px 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main-section {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+div.profile-details a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav {
+    flex-direction: column;
+  }
+  .main-section {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .nav-profile-container {
+    margin-top: 10px;
+  }
+  .nav-profile-container img {
+    width: 5em;
+    height: 5em;
+  }
+  .profile-card {
+    width: 46%;
+  }
+}
