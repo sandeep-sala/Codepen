@@ -19,6 +19,9 @@ Some of My Projects ..
 ## Chat UI
 ![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/chat-ui/src/chat_ui.png)
 
+## Checkbox Toggle View
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/checkbox-toggle-view/img/checkbox_toggle_view.png)
+
 ## Contact Details
 ![Screenshot](https://raw.githubusercontent.com/sandeep-sala/CPen/master/contact-details/src/contact_details.png)
 
