@@ -1,0 +1,208 @@
+:root {
+  --black: #322d2dbd;
+  --light-black: #f2e8e8;
+  --green: #36b153;
+  --light-green: #e6fceb;
+  --dark-green: #0b1f09b5;
+  --red: #fb6589;
+  --white: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  color: var(--black);
+}
+
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--green);
+}
+
+input,
+textarea,
+button {
+  background: #ffffff00;
+  border-radius: 0;
+}
+
+div.to-do-header-input > input[type="text"] {
+  font-size: large;
+  color: var(--dark-green);
+}
+
+.to-do-wrapper {
+  background: var(--white);
+  box-shadow: 0 10px 80px var(--dark-green);
+  overflow-y: hidden;
+  max-width: 90%;
+  min-width: 426px;
+}
+
+header {
+  padding: 15px 20px 10px 20px;
+  border-bottom: 1px solid var(--black);
+}
+
+.to-do-header-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+
+.to-do-header-task {
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid var(--green);
+  color: var(--green);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.to-do-header-refresh,
+.to-do-header-delete {
+  font-size: larger;
+  color: var(--green);
+  cursor: pointer;
+  border: 2px solid var(--green);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-bottom: 2px;
+}
+
+.to-do-header-refresh:hover,
+.to-do-header-delete:hover {
+  color: var(--white);
+  background: var(--green);
+}
+
+.to-do-content-card-checkbox {
+  font-size: 14px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid var(--green);
+  color: var(--green);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.to-do-content-card-checkbox-complete {
+  background: var(--green);
+  color: var(--white);
+}
+
+.to-do-header-date {
+  text-align: center;
+  color: var(--green);
+}
+
+.to-do-header-input {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr auto;
+  margin: 20px 0 0 0;
+}
+
+.to-do-header-input .form-control {
+  width: 100%;
+}
+
+.to-do-header-input .to-do-input-submit {
+  padding: 1px 4px 6px;
+  background: var(--green);
+  color: var(--white);
+  border-radius: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.to-do-content {
+  overflow-y: auto;
+  max-height: 15em;
+}
+
+.to-do-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.to-do-content::-webkit-scrollbar-button {
+  height: 5px;
+}
+
+.to-do-content::-webkit-scrollbar-thumb {
+  background: var(--green);
+  border-radius: 2rem;
+}
+
+.to-do-content-cards .to-do-content-cards-info .time {
+  opacity: 0.5;
+  font-size: 0.8rem;
+  text-align: inherit;
+}
+
+.to-do-content-cards {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 20px;
+  border-bottom: 1px solid var(--light-black);
+}
+
+.to-do-content-cards-info {
+  overflow-x: hidden;
+}
+
+.to-do-content-cards-info .to-do-content-card-task {
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.to-do-content-cards.to-do-content-finish {
+  background: var(--light-green);
+}
+
+.to-do-content-cards.to-do-content-finish .to-do-content-cards-info {
+  opacity: 0.5;
+}
+
+.to-do-content-cards.to-do-content-finish
+  .to-do-content-cards-info
+  .to-do-content-card-task {
+  text-decoration: line-through;
+}
+
+.to-do-content-cards .to-do-content-card-delete-btn {
+  visibility: hidden;
+  width: 26px;
+  height: 26px;
+  font-size: 10px;
+  border-radius: 50%;
+  border: 2px solid var(--red);
+  cursor: pointer;
+}
+
+.to-do-content-cards:hover {
+  background: var(--light-green);
+}
+
+.to-do-content-cards:hover .to-do-content-card-delete-btn {
+  visibility: visible;
+}
